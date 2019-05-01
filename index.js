@@ -16,8 +16,6 @@ function nowServing(current) {
     
   var customer = current.shift();
     return `Currently serving ${customer}.`;
-  
-
 }
 
 function currentLine(current) {
@@ -29,7 +27,7 @@ function currentLine(current) {
     var line = i + 1
     var element = current[i];
     arr.push(line + ". " + element)
-    var result = "The line is currently: " + arr.join(", ") 
+    var result = "The line is currently: " + arr.join(", ")
     }
     return result;
 }
