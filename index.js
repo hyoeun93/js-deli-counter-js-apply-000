@@ -1,6 +1,6 @@
-function takeANumber2(current) {
  var number = 0;
- 
+
+function takeANumber2(current) {
  number++;
  current.push(number);
  
