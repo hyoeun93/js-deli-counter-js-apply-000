@@ -1,3 +1,10 @@
+function takeANumber2(current) {
+ var number = 0;
+ current.push(number);
+ 
+  return "Welcome, your number is #"
+}
+
 function takeANumber(current, name) {
   var curent = current.push(name);
   
